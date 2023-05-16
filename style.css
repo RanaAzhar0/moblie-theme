@@ -1,0 +1,560 @@
+body{
+    font-family: 'Yanone Kaffeesatz';
+    overflow-x: hidden;
+}
+#navbar{
+    height: 14vh;
+    width: 100%;
+    background-color:slateblue;
+    opacity: .96;
+    padding: 1%;
+    box-sizing: border-box;
+    position: fixed;
+    z-index:2;
+    animation: navclrchange 7s infinite;
+    transition: all 1s;
+}
+@keyframes navclrchange{
+    0%{background-color: black;}
+    20%{background-color:teal;}
+    40%{background-color: crimson;}
+    60%{background-color: darkmagenta;}
+    80%{background-color: seagreen;}
+    100%{background-color: red;}
+}
+.logo{
+    height: 12vh;
+    width: 12vw;
+    margin-left: 35px;
+}
+.menu1{
+    list-style-type: none;
+    position: absolute;
+    right: 2%;
+    top:-5%;
+    text-align: center;
+    font-size:26px;
+    border: 0px solid;
+    height: 10vh;
+    width: 60vw;
+}
+.menu2{
+    float:left;
+    margin-left: 2vw;
+    border-radius: 25px;
+    background-color: goldenrod;
+    padding:1.2%;
+    box-sizing: border-box;
+}
+.menu2:hover{
+    background-color: orchid;
+    cursor: pointer;
+    transition: all 2s;
+    color: white;
+}
+#bg{
+    height: 75vh;
+    width: 100%;
+    background-image: url("download.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 1%;
+    position: relative;
+}
+.heading1{
+    color: white;
+    text-align:left;
+    position: absolute;
+    top:30%;
+    left:20%;
+    line-height: 35px;
+    font-size: 70px;
+}
+.heading2{
+    color: white;
+    text-align:left;
+    position: absolute;
+    top:42%;
+    left:20%;
+    line-height: 35px;
+    font-size: 22px;
+}
+.btn1{
+    height: 40px;
+    width:150px;
+    background-color:darkgoldenrod;
+    border-radius:20px;
+    border:3px solid white;
+    position: absolute;
+    top:62%;
+    left:20%;
+    padding:.1%;
+    box-sizing: border-box;
+    color:black;
+    font-size:20px;
+    font-weight: 200px;
+    transition: all 3s;
+}
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover, .btn7:hover{
+    transition: all 3s;
+    transform: translate(20px) !important;
+    cursor: pointer;
+}
+#designsection{
+    height: 50vh;
+    width: 100%;
+    border: 0px solid;
+}
+.design{
+    height: 50vh;
+    width: 33vw;
+    border:1px solid black;
+    position: absolute;
+    background-color:seagreen;
+    color:white;
+    box-sizing: border-box;
+    padding:4% 4%;
+    text-align:center;
+}
+.fa-img{
+    font-size:50px;
+    color:black;
+    background-color: seashell;
+    border-radius:50%;
+    padding:4%;
+}
+.design2{
+    height: 50vh;
+    width: 33vw;
+    border:1px solid black;
+    position: absolute;
+    background-color:crimson;
+    color:white;
+    box-sizing: border-box;
+    padding:4% 4%;
+    text-align:center;
+    left:33vw;
+}
+.design3{
+    height: 50vh;
+    width: 33vw;
+    border:1px solid black;
+    position: absolute;
+    background-color:royalblue;
+    color:white;
+    box-sizing: border-box;
+    padding:4% 4%;
+    text-align:center;
+    right:0vw;
+}
+
+.design:hover, .design2:hover, .design3:hover{
+    transform:translateY(-50px)!important;
+    transition: all 3s;
+}
+
+#features{
+    height: 120vh;
+    width: 100%;
+    border: 0px solid;
+    text-align: center;
+    color:blue;
+    font-size: 35px;
+    position: relative;
+}
+
+.feature1{
+    height: 75vh;
+    width: 48vw;
+    position: absolute;
+}
+.feature2{
+    height: 30vh;
+    width: 12.5vw;
+    border: 0px solid;
+    position: absolute;
+    left:48vw;
+    padding:2%;
+}
+.imgfeatures{
+    height: 10vh;
+    width: 5vw;
+    margin-left:-100px;
+}
+.feature3{
+    height: 30vh;
+    width: 12.5vw;
+    border: 0px solid;
+    position: absolute;
+    left:65vw;
+    padding:2%;
+}
+.feature4{
+    height: 30vh;
+    width: 12.5vw;
+    border: 0px solid;
+    position: absolute;
+    right:0vw;
+    padding:2%;
+}
+.feature5{
+    height: 30vh;
+    width: 12.5vw;
+    border: 0px solid;
+    position: absolute;
+    top:62vh;
+    left:48vw;
+    padding:2%;
+}
+.feature6{
+    height: 30vh;
+    width: 12.5vw;
+    border: 0px solid;
+    position: absolute;
+    top:62vh;
+    left:65vw;
+    padding:2%;
+}
+.feature7{
+    height: 30vh;
+    width: 12.5vw;
+    border: 0px solid;
+    position: absolute;
+    top:62vh;
+    right:0vw;
+    padding:2%;
+}
+.featurehover:hover{
+    overflow: hidden;
+    
+    background-color:white;
+    transition: all 3s;
+    transform:translateY(-20px) !important;
+}
+#counter{
+    height: 50vh;
+    width: 100%;
+    border: 1px solid;
+    background-image: url('world2.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+.text1{
+    height: 30vh;
+    width: 20vw;
+    transition:all 5s;
+    position: absolute;
+    padding:2%;
+    border:0px solid;
+    color:White;
+    text-align: center;
+    box-sizing: border-box;
+    top:8vh;
+    left:3vw;
+    font-size: 20px;
+}
+.text2{
+    height: 30vh;
+    width: 23vw;
+    transition:all 5s;
+    position: absolute;
+    padding:2%;
+    border:0px solid;
+    color:White;
+    text-align: center;
+    box-sizing: border-box;
+    top:8vh;
+    left:25vw;
+    font-size: 20px;
+}
+.text3{
+    height: 30vh;
+    width: 20vw;
+    transition:all 5s;
+    position: absolute;
+    padding:2%;
+    border:0px solid;
+    color:White;
+    text-align: center;
+    box-sizing: border-box;
+    top:8vh;
+    left:50vw;
+    font-size: 20px;
+}
+.text4{
+    height: 30vh;
+    width: 20vw;
+    position: absolute;
+    padding:2%;
+    border:px solid;
+    color:White;
+    text-align: center;
+    box-sizing: border-box;
+    top:8vh;
+    right:5vw;
+    font-size: 20px;
+    transition:all 5s;
+}
+
+
+
+
+
+#counter2{
+    height: 150vh;
+    width: 100%;
+   border: 0px solid;
+}
+.description1{
+    height: 49vh;
+    width: 100%;
+    border:0px solid;
+    float:left;
+    position: relative;
+}
+.img1{
+    position: absolute;
+    height: 49vh;
+    width: 47.6vw;
+    border: 0px solid;
+    float: left;
+}
+.img1description{
+    height: 51vh;
+    width: 47vw;
+    border: 0px solid;
+    position: absolute;
+    right:2vw;
+    padding:7%;
+    box-sizing: border-box;
+}
+
+.description2{
+    height: 50vh;
+    width: 100%;
+    border:0px solid;
+    float:left;
+    position: relative;
+}
+
+.img2{
+    position: absolute;
+    height: 51vh;
+    width: 50vw;
+    border: 0px solid;
+    right:0vw;
+}
+.img2description{
+    height: 49vh;
+    width: 47vw;
+    border: 0px solid;
+    position: absolute;
+    left:2vw;
+    padding:7%;
+    box-sizing: border-box;
+}
+
+.description3{
+    height: 50vh;
+    width: 100%;
+    border:0px solid;
+    float:left;
+    position: relative;
+}
+
+.img3{
+    position: absolute;
+    height: 49vh;
+    width: 47.6vw;
+    border: 0px solid;
+    left:0vw;
+}
+.img3description{
+    height: 49vh;
+    width: 47vw;
+    border: 0px solid;
+    position: absolute;
+    right:2vw;
+    padding:7%;
+    box-sizing: border-box;
+}
+#ourwork{
+    height: 120vh;
+    width: 100%;
+    border: 0px solid;
+    text-align: center;
+    color:blue;
+    font-size: 35px;
+    position: relative;
+}
+.gallery{
+    height: 60vh;
+    width: 100%;
+    display:inline-block
+}
+
+.btn2{
+    height: 6vh;
+    width:10vw;
+    background-color:darkgoldenrod;
+    border-radius:20px;
+    border:3px solid gainsboro;
+    text-align: center;
+    padding:.1%;
+    box-sizing: border-box;
+    color:black;
+    font-size:20px;
+    font-weight: 200px;
+    margin-top: 30px;
+}
+
+#pricing{
+    height: 120vh;
+    width: 100%;
+    border: 0px solid;
+    text-align: center;
+    color:blue;
+    font-size: 35px;
+    position: relative;
+}
+
+.price1{
+    height: 68vh;
+    width: 24vw;
+    border: 0px solid;
+    box-shadow: 0px 0px 5px 3px gainsboro;
+    text-align: left;
+    color:black;
+    position: absolute;
+    left:5vw;
+    padding-left: 2%;
+}
+
+.btn3{
+    height: 7vh;
+    width:13vw;
+    background-color:darkgoldenrod;
+    border-radius:20px;
+    border:3px solid gainsboro;
+    text-align: center;
+    padding:.1%;
+    box-sizing: border-box;
+    color:black;
+    font-size:20px;
+    font-weight: 200px;
+    margin-top: 35px;
+    margin-left: 65px;
+}
+.btn4{
+    height: 7vh;
+    width:13vw;
+    background-color:darkgoldenrod;
+    border-radius:20px;
+    border:3px solid gainsboro;
+    text-align: center;
+    padding:.1%;
+    box-sizing: border-box;
+    color:black;
+    font-size:20px;
+    font-weight: 200px;
+    margin-top: 68px;
+    margin-left: 62px;
+}
+
+.price2{
+    height: 80vh;
+    width: 24vw;
+    border: 0px solid;
+    box-shadow: 0px 0px 5px 3px gainsboro;
+    text-align: left;
+    color:black;
+    position: absolute;
+    left:34vw;
+    padding-left: 2%;
+    top:10%;
+}
+.price3{
+    height: 68vh;
+    width: 24vw;
+    border: 0px solid;
+    box-shadow: 0px 0px 5px 3px gainsboro;
+    text-align: left;
+    color:black;
+    position: absolute;
+    right:8.5vw;
+    padding-left: 2%;
+}
+
+.price1:hover, .price2:hover, .price3:hover{
+    transform:translateY(-50px)!important;
+    transition: all 3s;
+}
+#worktogether{
+    height: 70vh;
+    width: 100%;
+    background-image: url('glashier1.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    padding:10%;
+    box-sizing: border-box;
+}
+
+.btn5{
+    height: 7vh;
+    width:13vw;
+    background-color:darkgoldenrod;
+    border-radius:20px;
+    border:3px solid gainsboro;
+    text-align: center;
+    padding:.1%;
+    box-sizing: border-box;
+    color:black;
+    font-size:20px;
+    font-weight: 200px;
+    margin-top: 48px;
+    margin-left: 32px;
+}
+
+#latestnews{
+    height: 120vh;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  
+}
+.btn6{
+    height: 7vh;
+    width:13vw;
+    background-color:darkgoldenrod;
+    border-radius:20px;
+    border:3px solid gainsboro;
+    text-align: center;
+    padding:.1%;
+    box-sizing: border-box;
+    color:black;
+    font-size:20px;
+    font-weight: 200px;
+}
+.text1:hover{
+    transition:all 5s;
+    border-radius: 45%;
+    background-color: orangered;
+}
+.text2:hover{
+    transition:all 5s;
+    border-radius: 45%;
+    background-color: orangered;
+}
+.text3:hover{
+    transition:all 5s;
+    border-radius: 45%;
+    background-color: orangered;
+}
+.text4:hover{
+    transition:all 5s;
+    border-radius: 45%;
+    background-color: orangered;
+}
